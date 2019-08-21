@@ -1,0 +1,4 @@
+downloads/**
+scripts/python/requirements.txt
+scripts/python/main.py
+**/__pycache__
