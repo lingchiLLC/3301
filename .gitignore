@@ -1,3 +1,6 @@
 downloads/**
+!python/development/__init__.py
+python/development
 python/main.py
+python/python.egg*
 **/__pycache__
