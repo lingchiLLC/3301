@@ -1,13 +1,12 @@
-from string import (
-    ascii_lowercase,
-    ascii_uppercase,
-    digits
-)
+from cicada import alphabets
 
-ALPHABET = digits + ascii_uppercase + ascii_lowercase
 
 class ConvertBase(object):
-    def __init__(self, *, source, target, alphabet=ALPHABET):
+    def __init__(
+            self, *,
+            source, target,
+            alphabet=alphabets.en_digits_upper_lower
+    ):
         self.sourceAlphabet = alphabet[:source]
         self.targetAlphabet = alphabet[:target]
         self.sourceBase = source
